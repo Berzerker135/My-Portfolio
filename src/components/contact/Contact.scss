@@ -1,0 +1,221 @@
+@import "../../../public/assets/scss/function.scss";
+
+.contact {
+  position: relative;
+  z-index: 10;
+  min-width: 100%;
+  height: auto;
+  padding: 30vh 7rem 10vh 7rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.container-dots-contact {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  gap: 10px;
+  width: 9rem;
+  height: 5rem;
+  position: absolute;
+  right: 10vw;
+  top: 5vh;
+
+  div {
+    background-color: var(--white-1);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+  }
+}
+
+.circle-contact-1 {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: absolute;
+  border: 0.7rem solid var(--purple-1);
+  top: 9vh;
+  left: -1rem;
+  z-index: -1;
+}
+
+.circle-contact-2 {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  background-color: var(--purple-1);
+  top: 17vh;
+  left: 3rem;
+  z-index: -1;
+}
+
+.container-head-contact {
+  width: 100%;
+  height: auto;
+
+  h1 {
+    color: var(--purple-1);
+    font-family: "poppins";
+    font-size: $size + 5;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+  }
+}
+
+.para-contact {
+  width: 50vw;
+  color: var(--white-2);
+  font-size: $size - 1;
+  font-family: "poppins";
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 2rem;
+  margin-top: 2vh;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: var(--purple-1);
+    height: 100%;
+    width: 5px;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+  }
+}
+
+.container-flex-contact {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-svg-contact {
+  width: 35vw;
+  padding-top: 22vh;
+  position: relative;
+  padding-top: 7vh;
+}
+
+.svg-contact {
+  width: 30vw;
+}
+
+.about-contact-container {
+  width: 40vw;
+  height: 70vh;
+  padding-left: 8vw;
+  position: relative;
+}
+
+.container-box-about {
+  background-color: #050d2e00;
+  border-radius: 1rem;
+  border: 2px solid #050d2e2a;
+  width: 32vw;
+  height: 50vh;
+  margin-top: 8vh;
+  position: relative;
+  z-index: 50;
+  @include backdrop(blur(50px));
+  overflow: hidden;
+
+  .box-contact {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    flex-wrap: wrap;
+
+    i {
+      color: var(--white-2);
+      font-size: $size + 5;
+      background-image: linear-gradient(
+        to left,
+        var(--purple-1),
+        var(--pink-1) 100%
+      );
+      width: 2rem;
+      height: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      position: absolute;
+    }
+    span {
+      color: var(--purple-1);
+      font-size: $size - 1;
+      font-family: "poppins";
+      font-weight: normal;
+      padding-left: 3rem;
+    }
+
+    p {
+      color: var(--white-2);
+      font-size: $size - 1;
+      font-family: "poppins";
+      font-weight: normal;
+      padding-left: 3rem;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+.container-div-glow-1 {
+  background-color: #050d2e0c;
+  @include backdrop(blur(100px));
+  width: 100%;
+  height: 100%;
+}
+
+.container-div-glow-2 {
+  background-color: #050d2e1d;
+  @include backdrop(blur(100px));
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.glow-effect-1 {
+  background-image: linear-gradient(
+    to left,
+    var(--purple-1),
+    var(--pink-1) 100%
+  );
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+  z-index: -99999;
+}
+
+.glow-effect-2 {
+  background-image: linear-gradient(
+    to right,
+    var(--purple-1),
+    var(--pink-1) 100%
+  );
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 2vh;
+  right: -2vw;
+  z-index: -99999;
+}

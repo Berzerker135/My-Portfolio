@@ -1,0 +1,457 @@
+@import "../../../public/assets/scss/function.scss";
+
+@include medium-respond-to(1180px) {
+  .container-all-services {
+    .box-for-services {
+      width: 26vw;
+    }
+  }
+}
+
+@include medium-respond-to(1060px) {
+  .container-all-services {
+    // background-color: red;
+    .box-for-services {
+      width: 26vw;
+      h2 {
+        font-size: $size + 4;
+      }
+    }
+  }
+}
+
+@include medium-respond-to(1030px) {
+  .container-all-services {
+    // background-color: red;
+    .box-for-services {
+      width: 26.5vw;
+      h2 {
+        font-size: $size + 4;
+      }
+    }
+  }
+}
+
+@include medium-respond-to(1026px) {
+  .services {
+    padding: 30vh 6rem 5vh 6rem;
+  }
+  .container-all-services {
+    // background-color: red;
+    .box-for-services {
+      width: 26.5vw;
+      h2 {
+        font-size: $size + 4;
+      }
+    }
+  }
+}
+
+@include medium-respond-to(990px) {
+  .container-text-for-services {
+    h1 {
+      font-size: $size + 4;
+    }
+    p {
+      width: 80vw;
+      padding-left: 1rem;
+    }
+  }
+  .container-all-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .services {
+    padding: 30vh 6rem 5vh 6rem;
+  }
+  .container-all-services {
+    // background-color: red;
+    .box-for-services {
+      width: 37vw;
+      &:hover {
+        @include transform(translateY(-5px));
+        background-color: #070e418d;
+        box-shadow: 0 10px 10px rgb(0, 0, 0);
+      }
+      h2 {
+        font-size: $size + 4;
+      }
+    }
+  }
+}
+
+@include medium-respond-to(945px) {
+  .container-dots-serv {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    position: absolute;
+    z-index: -1;
+    top: 12vh;
+    right: -6vw;
+  }
+  .container-all-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .services {
+    padding: 30vh 6rem 5vh 6rem;
+  }
+  .container-all-services {
+    // background-color: red;
+    .box-for-services {
+      // width: 37vw;
+      h2 {
+        font-size: $size + 4;
+      }
+    }
+  }
+}
+
+@include medium-respond-to(799px) {
+  .container-dots-serv {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    position: absolute;
+    z-index: -1;
+    top: 12vh;
+    right: -9vw;
+  }
+  .container-all-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .services {
+    padding: 30vh 6rem 5vh 6rem;
+  }
+  .container-all-services {
+    // background-color: red;
+    .box-for-services {
+      width: 50vw;
+      h2 {
+        font-size: $size + 4;
+      }
+    }
+  }
+}
+
+@include medium-respond-to(767px) {
+  .container-text-for-services {
+    h1 {
+      font-size: $size + 3;
+    }
+    p {
+      width: 70vw;
+      font-size: $size - 2;
+    }
+  }
+  .container-dots-serv {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    position: absolute;
+    z-index: -1;
+    top: 12vh;
+    right: -9vw;
+  }
+  .container-all-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .services {
+    padding: 30vh 6rem 5vh 6rem;
+  }
+  .container-all-services {
+    // background-color: red;
+    .box-for-services {
+      width: 50vw;
+      h2 {
+        font-size: $size + 4;
+      }
+
+      i {
+        font-size: $size + 25;
+      }
+
+      p {
+        font-size: $size - 2;
+      }
+    }
+  }
+}
+
+@include medium-respond-to(730px) {
+  .container-text-for-services {
+    h1 {
+      font-size: $size + 3;
+    }
+    p {
+      font-size: $size - 2;
+    }
+  }
+  .container-dots-serv {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    position: absolute;
+    z-index: -1;
+    top: 0vh;
+    right: -12vw;
+  }
+  .container-all-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .services {
+    padding: 30vh 6rem 5vh 6rem;
+  }
+  .container-all-services {
+    // background-color: red;
+    .box-for-services {
+      width: 60vw;
+      h2 {
+        font-size: $size + 4;
+      }
+
+      i {
+        font-size: $size + 25;
+      }
+
+      p {
+        font-size: $size - 2;
+      }
+    }
+  }
+}
+
+@include medium-respond-to(580px) {
+  .container-text-for-services {
+    h1 {
+      font-size: $size + 3;
+    }
+    p {
+      font-size: $size - 2;
+    }
+  }
+  .container-dots-serv {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    position: absolute;
+    z-index: -1;
+    top: 0vh;
+    right: -12vw;
+  }
+  .container-all-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .services {
+    padding: 30vh 4rem 5vh 4rem;
+  }
+  .container-all-services {
+    // background-color: red;
+    .box-for-services {
+      width: 60vw;
+      h2 {
+        font-size: $size + 4;
+      }
+
+      i {
+        font-size: $size + 25;
+      }
+
+      p {
+        font-size: $size - 2;
+      }
+    }
+  }
+}
+
+@include medium-respond-to(576px) {
+  .container-text-for-services {
+    h1 {
+      font-size: $size + 2;
+    }
+    p {
+      font-size: $size - 3;
+    }
+  }
+  .container-dots-serv {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    position: absolute;
+    z-index: -1;
+    top: 0vh;
+    right: -12vw;
+  }
+  .container-all-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .services {
+    padding: 30vh 4rem 5vh 4rem;
+  }
+  .container-all-services {
+    // background-color: red;
+    .box-for-services {
+      width: 60vw;
+      h2 {
+        font-size: $size + 3;
+      }
+
+      i {
+        font-size: $size + 22;
+      }
+
+      p {
+        font-size: $size - 3;
+      }
+    }
+  }
+}
+
+@include medium-respond-to(466px) {
+  .container-text-for-services {
+    h1 {
+      font-size: $size + 2;
+    }
+    p {
+      font-size: $size - 3;
+    }
+  }
+  .container-dots-serv {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    position: absolute;
+    z-index: -1;
+    top: 0vh;
+    right: -40vw;
+  }
+  .container-all-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .services {
+    padding: 30vh 4rem 5vh 4rem;
+  }
+  .container-all-services {
+    // background-color: red;
+    .box-for-services {
+      width: 60vw;
+      h2 {
+        font-size: $size + 3;
+      }
+
+      i {
+        font-size: $size + 22;
+      }
+
+      p {
+        font-size: $size - 3;
+      }
+    }
+  }
+}
+
+@include medium-respond-to(440px) {
+  .container-text-for-services {
+    h1 {
+      font-size: $size + 2;
+    }
+    p {
+      font-size: $size - 3;
+    }
+  }
+  .container-dots-serv {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    position: absolute;
+    z-index: -1;
+    top: 0vh;
+    right: -40vw;
+  }
+  .container-all-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .services {
+    padding: 30vh 2rem 5vh 2rem;
+  }
+  .container-all-services {
+    // background-color: red;
+    .box-for-services {
+      width: 70vw;
+      h2 {
+        font-size: $size + 3;
+      }
+
+      i {
+        font-size: $size + 22;
+      }
+
+      p {
+        font-size: $size - 3;
+      }
+    }
+  }
+}
+
+@include medium-respond-to(325px) {
+  .container-text-for-services {
+    h1 {
+      font-size: $size + 2;
+    }
+    p {
+      font-size: $size - 3;
+    }
+  }
+  .container-dots-serv {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    position: absolute;
+    z-index: -1;
+    top: 0vh;
+    right: -60vw;
+  }
+  .container-all-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .services {
+    padding: 30vh 2rem 5vh 2rem;
+  }
+  .container-all-services {
+    // background-color: red;
+    .box-for-services {
+      width: 70vw;
+      h2 {
+        font-size: $size + 3;
+      }
+
+      i {
+        font-size: $size + 22;
+      }
+
+      p {
+        font-size: $size - 3;
+      }
+    }
+  }
+}

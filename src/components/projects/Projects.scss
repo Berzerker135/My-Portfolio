@@ -1,0 +1,94 @@
+@import "../../../public/assets/scss/function.scss";
+
+.projects {
+  position: relative;
+  z-index: 10;
+  min-width: 100%;
+  height: auto;
+  padding: 20vh 7rem 10vh 7rem;
+  align-items: center;
+}
+
+.circle-projet-1 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: absolute;
+  border: 1rem solid var(--purple-1);
+  top: 9vh;
+  right: 0;
+  z-index: -1;
+}
+
+.circle-projet-2 {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  position: absolute;
+  background-color: var(--purple-1);
+  top: 21vh;
+  right: 4rem;
+  z-index: -1;
+}
+
+.container-dots-circle-project {
+  display: flex;
+  gap: 10px;
+  width: 30rem;
+  height: 4vh;
+  position: absolute;
+  left: 5vw;
+  top: 5vh;
+  // overflow: hidden;
+
+  div {
+    background-color: var(--grey-1);
+    width: 3px;
+    height: 100%;
+    @include transform(skew(40deg));
+  }
+}
+
+.container-latest-project {
+  margin-top: 10vh;
+  h3 {
+    color: var(--white-1);
+    font-family: "poppins";
+    font-size: $size + 5;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+  }
+}
+
+.para-project {
+  width: 50vw;
+  color: var(--white-2);
+  font-size: $size - 1;
+  font-family: "poppins";
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 2rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: var(--purple-1);
+    height: 100%;
+    width: 5px;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+  }
+}
+
+.container-project {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding-top: 1vh;
+}

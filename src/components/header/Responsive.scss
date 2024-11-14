@@ -1,0 +1,86 @@
+@import "../../../public/assets/scss/function.scss";
+
+// mila ampidininana ny padding gauche et droite de 6rem
+@include medium-respond-to(1026px) {
+  .header {
+    padding: 2vh 6rem;
+  }
+}
+
+@include medium-respond-to(990px) {
+  .menu-container {
+    display: block;
+  }
+  .nav-item {
+    background-color: #060a13;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 155;
+    @include transform(translateY(-100vh));
+    transition: transform 300ms ease-out;
+    padding: 10vh 0 5vh 0;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .nav-show {
+    @include transform(translateY(0));
+  }
+
+  .blur-show {
+    display: block;
+  }
+}
+
+// mila ampidininana ny padding gauche et droite de 4rem
+@include medium-respond-to(580px) {
+  .header {
+    padding: 2vh 4rem;
+  }
+}
+
+@include medium-respond-to(576px) {
+  li a {
+    text-decoration: none;
+    color: var(--white-1);
+    font-size: $size - 3;
+    transition: color 0.3s;
+    cursor: pointer;
+    font-family: "poppins";
+    @include transform(translateY(0));
+  }
+  
+  .btn-header {
+    padding: 7px 11px;
+    border-radius: 2rem;
+    cursor: pointer;
+    overflow: hidden;
+    background-image: linear-gradient(
+      to right,
+      var(--purple-1),
+      var(--pink-1) 100%
+    );
+    font-size: $size - 3;
+    font-family: "poppins";
+    color: white;
+    position: relative;
+    outline: none;
+  }
+}
+
+// mila ampidininana ny padding gauche et droite de 1rem
+@include medium-respond-to(440px) {
+  .header {
+    padding: 2vh 2rem;
+  }
+}
+

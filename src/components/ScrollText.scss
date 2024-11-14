@@ -1,0 +1,26 @@
+@import '../../public/assets/scss/function.scss';
+
+.container-scroll-text {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 200;
+    left: 0;
+    top: 0;
+}
+
+.scroll-text {
+    position: absolute;
+    bottom: 15vh;
+    right: 0;
+    color: var(--white-1);
+    font-size: $size;
+    font-family: 'openRegular';
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    @include transform(rotate(90deg));
+    i {
+        font-size: $size - 1;
+    }
+}

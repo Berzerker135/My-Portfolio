@@ -1,0 +1,101 @@
+          <RevealUpNoOverFlow>
+            <div className="techno"  ref={refProgress}>
+              <div className="info-tech">
+                <p>Html</p>
+                <div className="bar-progress">
+                  <motion.div className="bar"
+                  // initial={{ width: '0%' }}
+                  // animate={{ width: isProgress ? '100%' : '0%' }}
+                  ></motion.div>
+                </div>
+              </div>
+              <div className="profil">
+                <p>Advanced</p>
+              </div>
+            </div>
+          </RevealUpNoOverFlow>
+
+          <RevealUpNoOverFlow>
+            <div className="techno"  ref={refProgress}>
+              <div className="info-tech">
+                <p>Html</p>
+                <div className="bar-progress">
+                  <motion.div className="bar"
+                  // initial={{ width: '0%' }}
+                  // animate={{ width: isProgress ? '100%' : '0%' }}
+                  ></motion.div>
+                </div>
+              </div>
+              <div className="profil">
+                <p>Advanced</p>
+              </div>
+            </div>
+          </RevealUpNoOverFlow>
+
+          <RevealUpNoOverFlow>
+            <div className="techno"  ref={refProgress}>
+              <div className="info-tech">
+                <p>Html</p>
+                <div className="bar-progress">
+                  <motion.div className="bar"
+                  // initial={{ width: '0%' }}
+                  // animate={{ width: isProgress ? '100%' : '0%' }}
+                  ></motion.div>
+                </div>
+              </div>
+              <div className="profil">
+                <p>Advanced</p>
+              </div>
+            </div>
+          </RevealUpNoOverFlow>
+
+          <RevealUpNoOverFlow>
+            <div className="techno"  ref={refProgress}>
+              <div className="info-tech">
+                <p>Html</p>
+                <div className="bar-progress">
+                  <motion.div className="bar"
+                  // initial={{ width: '0%' }}
+                  // animate={{ width: isProgress ? '100%' : '0%' }}
+                  ></motion.div>
+                </div>
+              </div>
+              <div className="profil">
+                <p>Advanced</p>
+              </div>
+            </div>
+          </RevealUpNoOverFlow>
+
+          <RevealUpNoOverFlow>
+            <div className="techno"  ref={refProgress}>
+              <div className="info-tech">
+                <p>Html</p>
+                <div className="bar-progress">
+                  <motion.div className="bar"
+                  // initial={{ width: '0%' }}
+                  // animate={{ width: isProgress ? '100%' : '0%' }}
+                  ></motion.div>
+                </div>
+              </div>
+              <div className="profil">
+                <p>Advanced</p>
+              </div>
+            </div>
+          </RevealUpNoOverFlow>
+
+          <RevealUpNoOverFlow>
+            <div className="techno"  ref={refProgress}>
+              <div className="info-tech">
+                <p>Html</p>
+                <div className="bar-progress">
+                  <motion.div className="bar"
+                  // initial={{ width: '0%' }}
+                  // animate={{ width: isProgress ? '100%' : '0%' }}
+                  ></motion.div>
+                </div>
+              </div>
+              <div className="profil">
+                <p>Advanced</p>
+              </div>
+            </div>
+          </RevealUpNoOverFlow>

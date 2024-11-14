@@ -1,0 +1,821 @@
+@import "../../../public/assets/scss/function.scss";
+
+@include medium-respond-to(1200px) {
+  .list-1 {
+    width: 38vw;
+  }
+  .title-service-offer {
+    width: 38vw;
+  }
+}
+
+@include medium-respond-to(1140px) {
+  .container-dots-circle-resume {
+    display: flex;
+    gap: 10px;
+    width: 17rem;
+    height: 4vh;
+    position: absolute;
+    right: 2rem;
+    top: 17vh;
+  }
+}
+
+@include medium-respond-to(1105px) {
+  .list-1 {
+    width: 37vw;
+  }
+  .title-service-offer {
+    width: 37vw;
+  }
+}
+
+@include medium-respond-to(1057px) {
+  .list-1 {
+    width: 36vw;
+  }
+  .title-service-offer {
+    width: 36vw;
+  }
+}
+
+@include medium-respond-to(1026px) {
+  .list-1 {
+    width: 38vw;
+  }
+  .title-service-offer {
+    width: 38vw;
+  }
+  .resume {
+    padding: 25vh 6rem 5vh 6rem;
+  }
+}
+
+@include medium-respond-to(1010px) {
+  .container-dots-circle-resume {
+    display: flex;
+    gap: 10px;
+    width: 14rem;
+    height: 4vh;
+    position: absolute;
+    right: 2rem;
+    top: 17vh;
+  }
+  .container-dots-resume {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    width: 9rem;
+    height: 5rem;
+    position: absolute;
+    left: -5rem;
+    top: 5vh;
+
+    div {
+      background-color: var(--white-1);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+    }
+  }
+}
+
+@include medium-respond-to(990px) {
+  .container-dots-circle-resume {
+    display: flex;
+    gap: 10px;
+    width: 14rem;
+    height: 4vh;
+    position: absolute;
+    right: 2rem;
+    top: 10vh;
+  }
+  .container-dots-resume {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    width: 9rem;
+    height: 5rem;
+    position: absolute;
+    left: -5rem;
+    top: 5vh;
+
+    div {
+      background-color: var(--white-1);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+    }
+  }
+  .resume {
+    padding: 25vh 6rem 5vh 6rem;
+  }
+  .container-for-all-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+  .title-service-offer {
+    width: 50vw;
+    h3 {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size + 1;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+    }
+  }
+  .list-1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .text-resume {
+    width: 70vw;
+    font-size: $size - 1;
+    padding-left: 1rem;
+  }
+  .para-resume {
+    font-size: $size - 1;
+    line-height: 1.6;
+    span {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+      margin-bottom: 1vh;
+      color: var(--purple-1);
+    }
+  }
+  .container-date {
+    font-size: $size - 1;
+  }
+}
+
+@include medium-respond-to(820px) {
+  .resume {
+    padding: 25vh 6rem 5vh 6rem;
+  }
+  .container-for-all-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+  .title-service-offer {
+    width: 55vw;
+    h3 {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size + 1;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+    }
+  }
+  .list-1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .text-resume {
+    width: 70vw;
+    font-size: $size - 1;
+  }
+  .para-resume {
+    font-size: $size - 1;
+    line-height: 1.6;
+    span {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+      margin-bottom: 1vh;
+      color: var(--purple-1);
+    }
+  }
+  .container-date {
+    font-size: $size - 1;
+  }
+}
+
+@include medium-respond-to(767px) {
+  .container-dots-circle-resume {
+    display: flex;
+    gap: 10px;
+    width: 14rem;
+    height: 4vh;
+    position: absolute;
+    right: -3rem;
+    top: 10vh;
+  }
+  .container-dots-resume {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    width: 9rem;
+    height: 4rem;
+    position: absolute;
+    left: -5rem;
+    top: 5vh;
+
+    div {
+      background-color: var(--white-1);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+    }
+  }
+  .resume {
+    padding: 25vh 6rem 5vh 6rem;
+  }
+  .container-for-all-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+  .title-service-offer {
+    width: 55vw;
+    h3 {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+    }
+  }
+  .list-1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .text-resume {
+    width: 70vw;
+    font-size: $size - 2;
+  }
+  .para-resume {
+    font-size: $size - 2;
+    line-height: 1.6;
+    span {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size - 1;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+      margin-bottom: 1vh;
+      color: var(--purple-1);
+    }
+  }
+  .container-date {
+    font-size: $size - 2;
+  }
+}
+
+@include medium-respond-to(640px) {
+  .container-dots-circle-resume {
+    display: flex;
+    gap: 10px;
+    width: 14rem;
+    height: 4vh;
+    position: absolute;
+    right: -3rem;
+    top: 10vh;
+  }
+  .container-dots-resume {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    width: 9rem;
+    height: 4rem;
+    position: absolute;
+    left: -9rem;
+    top: 5vh;
+
+    div {
+      background-color: var(--white-1);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+    }
+  }
+  .resume {
+    padding: 25vh 6rem 5vh 6rem;
+  }
+  .container-for-all-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+  .title-service-offer {
+    width: 55vw;
+    h3 {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+    }
+  }
+  .list-1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .text-resume {
+    width: 70vw;
+    font-size: $size - 2;
+  }
+  .para-resume {
+    font-size: $size - 2;
+    line-height: 1.6;
+    span {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size - 1;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+      margin-bottom: 1vh;
+      color: var(--purple-1);
+    }
+  }
+  .container-date {
+    font-size: $size - 2;
+  }
+}
+
+@include medium-respond-to(580px) {
+  .resume {
+    padding: 25vh 4rem 5vh 4rem;
+  }
+  .container-for-all-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+  .title-service-offer {
+    width: 55vw;
+    h3 {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+    }
+  }
+  .list-1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .text-resume {
+    width: 70vw;
+    font-size: $size - 2;
+  }
+  .para-resume {
+    font-size: $size - 2;
+    line-height: 1.6;
+    span {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size - 1;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+      margin-bottom: 1vh;
+      color: var(--purple-1);
+    }
+  }
+  .container-date {
+    font-size: $size - 2;
+  }
+}
+
+@include medium-respond-to(576px) {
+  .resume {
+    padding: 25vh 4rem 5vh 4rem;
+  }
+  .container-for-all-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+  .title-service-offer {
+    width: 60vw;
+    height: 5vh;
+
+    h3 {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size -1;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+    }
+  }
+  .list-1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .text-resume {
+    width: 70vw;
+    font-size: $size - 3;
+  }
+  .para-resume {
+    font-size: $size - 3;
+    line-height: 1.6;
+    span {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size - 2;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+      margin-bottom: 1vh;
+      color: var(--purple-1);
+    }
+  }
+  .container-date {
+    font-size: $size - 3;
+  }
+}
+
+@include medium-respond-to(510px) {
+  .container-dots-circle-resume {
+    display: flex;
+    gap: 10px;
+    width: 14rem;
+    height: 4vh;
+    position: absolute;
+    right: -5rem;
+    top: 10vh;
+  }
+  .container-dots-resume {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    width: 9rem;
+    height: 5rem;
+    position: absolute;
+    left: -8rem;
+    top: 0vh;
+
+    div {
+      background-color: var(--white-1);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+    }
+  }
+  .resume {
+    padding: 25vh 4rem 5vh 4rem;
+  }
+  .container-for-all-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+  .title-service-offer {
+    width: 60vw;
+    height: 5vh;
+
+    h3 {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size -1;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+    }
+  }
+  .list-1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .text-resume {
+    width: 70vw;
+    font-size: $size - 3;
+  }
+  .para-resume {
+    font-size: $size - 3;
+    line-height: 1.6;
+    span {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size - 2;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+      margin-bottom: 1vh;
+      color: var(--purple-1);
+    }
+  }
+  .container-date {
+    font-size: $size - 3;
+  }
+}
+
+@include medium-respond-to(504px) {
+  .container-dots-circle-resume {
+    display: flex;
+    gap: 10px;
+    width: 14rem;
+    height: 4vh;
+    position: absolute;
+    right: -5rem;
+    top: 10vh;
+  }
+  .container-dots-resume {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    width: 9rem;
+    height: 5rem;
+    position: absolute;
+    left: -8rem;
+    top: 0vh;
+
+    div {
+      background-color: var(--white-1);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+    }
+  }
+  .resume {
+    padding: 25vh 4rem 5vh 4rem;
+  }
+  .container-for-all-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+  .title-service-offer {
+    width: 70vw;
+    height: 5vh;
+
+    h3 {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size -1;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+    }
+  }
+  .list-1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .text-resume {
+    width: 70vw;
+    font-size: $size - 3;
+  }
+  .para-resume {
+    font-size: $size - 3;
+    line-height: 1.6;
+    span {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size - 2;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+      margin-bottom: 1vh;
+      color: var(--purple-1);
+    }
+  }
+  .container-date {
+    font-size: $size - 3;
+    width: 60vw;
+  }
+}
+
+@include medium-respond-to(440px) {
+  .container-dots-circle-resume {
+    display: flex;
+    gap: 10px;
+    width: 14rem;
+    height: 4vh;
+    position: absolute;
+    right: -5rem;
+    top: 5vh;
+  }
+  .container-dots-resume {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    width: 9rem;
+    height: 5rem;
+    position: absolute;
+    left: -10rem;
+    top: 0vh;
+
+    div {
+      background-color: var(--white-1);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+    }
+  }
+  .resume {
+    padding: 25vh 2rem 5vh 2rem;
+  }
+  .container-for-all-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+  .title-service-offer {
+    width: 75vw;
+    height: 5vh;
+
+    h3 {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size -1;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+    }
+  }
+  .list-1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .text-resume {
+    width: 100%;
+    font-size: $size - 3;
+  }
+  .para-resume {
+    font-size: $size - 3;
+    line-height: 1.6;
+    span {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size - 2;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+      margin-bottom: 1vh;
+      color: var(--purple-1);
+    }
+  }
+  .container-date {
+    font-size: $size - 3;
+  }
+}
+
+@include medium-respond-to(376px) {
+  .container-dots-circle-resume {
+    display: flex;
+    gap: 10px;
+    width: 14rem;
+    height: 4vh;
+    position: absolute;
+    right: -9rem;
+    top: 5vh;
+  }
+  .container-dots-resume {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    width: 9rem;
+    height: 5rem;
+    position: absolute;
+    left: -12rem;
+    top: 0vh;
+
+    div {
+      background-color: var(--white-1);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+    }
+  }
+  .resume {
+    padding: 25vh 2rem 5vh 2rem;
+  }
+  .container-for-all-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+  .title-service-offer {
+    width: 75vw;
+    height: 5vh;
+
+    h3 {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size -1;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+    }
+  }
+  .list-1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .text-resume {
+    width: 100%;
+    font-size: $size - 3;
+  }
+  .para-resume {
+    font-size: $size - 3;
+    line-height: 1.6;
+    span {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size - 2;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+      margin-bottom: 1vh;
+      color: var(--purple-1);
+    }
+  }
+  .container-date {
+    font-size: $size - 3;
+  }
+}
+
+@include medium-respond-to(340px) {
+  .container-dots-circle-resume {
+    display: flex;
+    gap: 10px;
+    width: 14rem;
+    height: 4vh;
+    position: absolute;
+    right: -9rem;
+    top: 5vh;
+  }
+  .container-dots-resume {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    width: 9rem;
+    height: 5rem;
+    position: absolute;
+    left: -12rem;
+    top: 0vh;
+
+    div {
+      background-color: var(--white-1);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+    }
+  }
+  .resume {
+    padding: 25vh 2rem 5vh 2rem;
+  }
+  .container-for-all-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+  .title-service-offer {
+    width: 80vw;
+    height: 5vh;
+    gap: 10px;
+
+    h3 {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size - 1;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+    }
+  }
+  .list-1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .text-resume {
+    width: 100%;
+    font-size: $size - 3;
+  }
+  .para-resume {
+    font-size: $size - 3;
+    line-height: 1.6;
+    span {
+      color: var(--white-1);
+      font-family: "poppins";
+      font-size: $size - 2;
+      letter-spacing: 1px;
+      font-weight: 500;
+      padding-top: 5px;
+      margin-bottom: 1vh;
+      color: var(--purple-1);
+    }
+  }
+  .container-date {
+    font-size: $size - 3;
+  }
+}

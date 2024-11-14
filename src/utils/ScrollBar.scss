@@ -1,0 +1,26 @@
+@import '../../public/assets/scss/function.scss';
+
+.progress-scroll-container {
+    position: fixed;
+    width: 12px;
+    height: 100vh;
+    right: 0;
+    top: 100;
+    z-index: 99;
+    background-color: #13131a7c;
+    @include backdrop(blur(50px));
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.progress-bar-scroll {
+    background-image: linear-gradient(to top, var(--purple-1), var(--pink-1) 100%);
+    width: 100%;
+    transition: height 300ms;
+}
+
+@include medium-respond-to(990px) {
+    .progress-scroll-container {
+        display: none;
+    }
+  }

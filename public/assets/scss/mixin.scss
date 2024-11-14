@@ -1,0 +1,31 @@
+@mixin transform($transform) {
+    transform: $transform;
+    -webkit-transform: $transform;
+    -o-transform: $transform;
+    -ms-transform: $transform;
+    -moz-transform: $transform;
+}
+
+@mixin animation($animation) {
+    animation: $animation;
+    -o-animation: $animation;
+    -ms-anmation: $animation;
+    -webkit-animation: $animation;
+    -moz-animation: $animation;
+}
+
+@mixin backdrop($backdrop) {
+    backdrop-filter: $backdrop;
+    -webkit-backdrop-filter: $backdrop;
+    -moz-backdrop-filter: $backdrop;
+    -ms-backdrop-filter: $backdrop;
+    -o-backdrop-filter: $backdrop;
+}
+
+ /* RESPONSIVE DE PETIT ECRAN */
+
+@mixin medium-respond-to($breackpoint){ 
+    @media (max-width: $breackpoint) {
+        @content;
+    }
+}

@@ -1,0 +1,50 @@
+@import "../../../public/assets/scss/function.scss";
+
+.progress-container {
+  background-image: linear-gradient(50deg, #06093c16, #10266d17 100%);
+  @include backdrop(blur(10px));
+  border: 1px solid #06093c83;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  width: 19.5vw;
+  height: auto;
+  padding: 2vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  cursor: default;
+  transition: 0.3s ease;
+
+  i {
+    font-size: $size + 40;
+  }
+
+  &:hover {
+    background-color: #06093cdb;
+  }
+
+  h2 {
+    color: var(--grey-1);
+    font-family: "poppins";
+    font-size: $size + 5;
+    letter-spacing: 0.5px;
+    margin-top: 2vh;
+  }
+
+  .svg-progress {
+    margin-top: 3vh;
+    width: 100px;
+    height: auto;
+  }
+}
+
+.text-progress {
+    color: var(--grey-1);
+    font-family: "poppins";
+    font-size: $size + 5;
+    letter-spacing: 0.5px;
+}

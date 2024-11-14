@@ -1,0 +1,114 @@
+@import "../../public/assets/scss/function.scss";
+
+.title-page-container {
+  width: fit-content;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: var(--purple-1);
+    width: 50%;
+    height: 5px;
+    border-radius: 2px;
+    bottom: -9px;
+    left: 0;
+  }
+}
+
+.title-page {
+  color: var(--white-1);
+  font-size: $size + 20;
+  font-family: "poppins";
+}
+
+// Responsive
+
+@include medium-respond-to(1270px) {
+  .title-page {
+    font-size: $size + 19;
+  }
+}
+
+@include medium-respond-to(1200px) {
+  .title-page {
+    font-size: $size + 18;
+  }
+}
+
+@include medium-respond-to(1185px) {
+  .title-page {
+    font-size: $size + 17;
+  }
+}
+
+@include medium-respond-to(1140px) {
+  .title-page {
+    font-size: $size + 16;
+  }
+}
+
+@include medium-respond-to(1100px) {
+  .title-page {
+    font-size: $size + 15;
+  }
+}
+
+@include medium-respond-to(1030px) {
+  .title-page {
+    font-size: $size + 14;
+  }
+}
+
+@include medium-respond-to(1000px) {
+  .title-page {
+    font-size: $size + 13;
+  }
+}
+
+@include medium-respond-to(950px) {
+  .title-page {
+    font-size: $size + 12;
+  }
+}
+
+@include medium-respond-to(880px) {
+  .title-page {
+    font-size: $size + 11;
+  }
+}
+
+@include medium-respond-to(830px) {
+  .title-page {
+    font-size: $size + 10;
+  }
+}
+
+@include medium-respond-to(620px) {
+  .title-page {
+    font-size: $size + 9;
+  }
+}
+
+@include medium-respond-to(520px) {
+  .title-page {
+    font-size: $size + 8;
+  }
+}
+
+@include medium-respond-to(470px) {
+  .title-page {
+    font-size: $size + 7;
+  }
+}
+
+@include medium-respond-to(300px) {
+  .title-page {
+    font-size: $size + 6;
+  }
+}
+
+@include medium-respond-to(270px) {
+    .title-page {
+      font-size: $size + 5;
+    }
+  }

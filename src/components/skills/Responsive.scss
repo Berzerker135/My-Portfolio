@@ -1,0 +1,2245 @@
+@import "../../../public/assets/scss/function.scss";
+
+@include medium-respond-to(1310px) {
+  .container-all-techno {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-top: 3vh;
+  }
+}
+
+@include medium-respond-to(1200px) {
+  .container-all-techno {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 19vw;
+    }
+  }
+}
+
+@include medium-respond-to(1100px) {
+  .container-all-techno {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 18.8vw;
+
+      .svg-progress {
+        margin-top: 2vh;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    .card-outlier {
+      width: 18.8vw;
+    }
+  }
+}
+
+@include medium-respond-to(1059px) {
+  .container-all-techno {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 18.6vw;
+
+      .svg-progress {
+        margin-top: 2vh;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    .card-outlier {
+      width: 18.6vw;
+    }
+  }
+}
+
+@include medium-respond-to(1040px) {
+  .container-all-techno {
+    // background-color: red;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 18.5vw;
+
+      .svg-progress {
+        margin-top: 2vh;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    .card-outlier {
+      width: 18.5vw;
+    }
+  }
+}
+
+@include medium-respond-to(1026px) {
+  .skills {
+    padding: 18vh 6rem 5vh 6rem;
+  }
+  .container-all-techno {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 19vw;
+
+      .svg-progress {
+        margin-top: 2vh;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    .card-outlier {
+      width: 19vw;
+    }
+  }
+}
+
+@include medium-respond-to(990px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-all-techno {
+    // background-color: red;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 19vw;
+
+      .svg-progress {
+        margin-top: 2vh;
+      }
+
+      i {
+        font-size: $size + 35;
+      }
+
+      h2 {
+        font-size: $size + 4;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    .card-outlier {
+      width: 19vw;
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 45;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 8;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 3;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 3;
+    }
+  }
+}
+
+@include medium-respond-to(960px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-all-techno {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 18.5vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+      }
+
+      i {
+        font-size: $size + 35;
+      }
+
+      h2 {
+        font-size: $size + 4;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    .card-outlier {
+      width: 18.5vw;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 45;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 8;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 3;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 3;
+    }
+  }
+}
+
+@include medium-respond-to(900px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-all-techno {
+    // background-color: red;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 18.3vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 85px;
+      }
+
+      i {
+        font-size: $size + 35;
+      }
+
+      h2 {
+        font-size: $size + 4;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    .card-outlier {
+      width: 18.3vw;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 45;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 8;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 3;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 3;
+    }
+  }
+}
+
+@include medium-respond-to(880px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-all-techno {
+    // background-color: red;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 18.2vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 85px;
+      }
+
+      i {
+        font-size: $size + 30;
+      }
+
+      h2 {
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    .card-outlier {
+      width: 18.2vw;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 40;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 5;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 3;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 3;
+    }
+  }
+}
+
+@include medium-respond-to(860px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-all-techno {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 18.2vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 85px;
+      }
+
+      i {
+        font-size: $size + 30;
+      }
+
+      h2 {
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    gap: 0.8rem;
+    .card-outlier {
+      width: 18.2vw;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 40;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 5;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 3;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 3;
+    }
+  }
+}
+
+@include medium-respond-to(810px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-all-techno {
+    width: 100%;
+    // background-color: red;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 18vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 85px;
+      }
+
+      i {
+        font-size: $size + 30;
+      }
+
+      h2 {
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    gap: 0.8rem;
+    .card-outlier {
+      width: 18vw;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 40;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 5;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 3;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 3;
+    }
+  }
+}
+
+@include medium-respond-to(790px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 23.5vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 85px;
+      }
+
+      i {
+        font-size: $size + 30;
+      }
+
+      h2 {
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 23.5vw;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 40;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 5;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 3;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 3;
+    }
+  }
+}
+
+@include medium-respond-to(767px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: 2vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 23.5vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 85px;
+      }
+
+      i {
+        font-size: $size + 30;
+      }
+
+      h2 {
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 23.5vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 3;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+}
+
+@include medium-respond-to(737px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: 2vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 23vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 85px;
+      }
+
+      i {
+        font-size: $size + 30;
+      }
+
+      h2 {
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 23vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 3;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+}
+
+@include medium-respond-to(701px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: 2vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    // background-color: red;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 22.9vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 85px;
+      }
+
+      i {
+        font-size: $size + 30;
+      }
+
+      h2 {
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 22.9vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 3;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+}
+
+@include medium-respond-to(695px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: 2vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 22.8vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 80px;
+      }
+
+      i {
+        font-size: $size + 30;
+      }
+
+      h2 {
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 22.8vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 3;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+}
+
+@include medium-respond-to(688px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: 2vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    // background-color: red;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 22.7vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 80px;
+      }
+
+      i {
+        font-size: $size + 30;
+      }
+
+      h2 {
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 22.7vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 3;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+}
+
+@include medium-respond-to(682px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: 2vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    // background-color: red;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 22.6vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 80px;
+      }
+
+      i {
+        font-size: $size + 30;
+      }
+
+      h2 {
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 22.6vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 3;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+}
+
+@include medium-respond-to(675px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: 2vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 22.5vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 80px;
+      }
+
+      i {
+        font-size: $size + 28;
+      }
+
+      h2 {
+        font-size: $size + 1;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 22.5vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+}
+
+@include medium-respond-to(669px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: 2vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 22.4vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 80px;
+      }
+
+      i {
+        font-size: $size + 28;
+      }
+
+      h2 {
+        font-size: $size + 1;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 22.4vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+}
+
+@include medium-respond-to(663px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: 2vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    // background-color: red;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 22.3vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 80px;
+      }
+
+      i {
+        font-size: $size + 28;
+      }
+
+      h2 {
+        font-size: $size + 1;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 22.3vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+}
+
+@include medium-respond-to(657px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: 2vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    // background-color: red;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 22.2vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 80px;
+      }
+
+      i {
+        font-size: $size + 28;
+      }
+
+      h2 {
+        font-size: $size + 1;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 22.2vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+}
+
+@include medium-respond-to(651px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: 2vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    // background-color: red;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 22.1vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 80px;
+      }
+
+      i {
+        font-size: $size + 28;
+      }
+
+      h2 {
+        font-size: $size + 1;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 22.1vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+}
+
+@include medium-respond-to(645px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: -8vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 22vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 80px;
+      }
+
+      i {
+        font-size: $size + 28;
+      }
+
+      h2 {
+        font-size: $size + 1;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 22vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+}
+
+@include medium-respond-to(639px) {
+  .skills {
+    padding: 20vh 6rem 5vh 6rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: -8vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 29vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 80px;
+      }
+
+      i {
+        font-size: $size + 28;
+      }
+
+      h2 {
+        font-size: $size + 1;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 29vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+}
+
+@include medium-respond-to(580px) {
+  .skills {
+    padding: 20vh 4rem 5vh 4rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: -8vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 29vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 80px;
+      }
+
+      i {
+        font-size: $size + 28;
+      }
+
+      h2 {
+        font-size: $size + 1;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 29vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+}
+
+@include medium-respond-to(576px) {
+  .skills {
+    padding: 20vh 4rem 5vh 4rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: -8vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 29vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 80px;
+      }
+
+      i {
+        font-size: $size + 28;
+      }
+
+      h2 {
+        font-size: $size + 1;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 29vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 1;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 1;
+    }
+  }
+}
+
+@include medium-respond-to(540px) {
+  .skills {
+    padding: 20vh 4rem 5vh 4rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: -8vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 30vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 80px;
+      }
+
+      i {
+        font-size: $size + 28;
+      }
+
+      h2 {
+        font-size: $size + 1;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 30vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 4;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 1;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 1;
+    }
+  }
+}
+
+@include medium-respond-to(480px) {
+  .skills {
+    padding: 20vh 4rem 5vh 4rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: -8vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 33vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 78px;
+      }
+
+      i {
+        font-size: $size + 28;
+      }
+
+      h2 {
+        font-size: $size;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 33vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 2;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 1;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 1;
+    }
+  }
+}
+
+@include medium-respond-to(440px) {
+  .skills {
+    padding: 20vh 2rem 5vh 2rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: -8vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 39vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 78px;
+      }
+
+      i {
+        font-size: $size + 28;
+      }
+
+      h2 {
+        font-size: $size;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 39vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 2;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 1;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 1;
+    }
+  }
+}
+
+@include medium-respond-to(349px) {
+  .skills {
+    padding: 20vh 2rem 10vh 2rem;
+  }
+  .container-dots-circle-skills {
+    display: flex;
+    gap: 10px;
+    width: 25rem;
+    height: 3vh;
+    position: absolute;
+    left: -30vw;
+    top: 5vh;
+    div {
+      background-color: var(--grey-1);
+      width: 2px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-all-techno {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+    padding-top: 3vh;
+
+    .progress-container {
+      width: 50vw;
+      padding: 1.5vh 0;
+
+      .svg-progress {
+        margin-top: 1.5vh;
+        width: 78px;
+      }
+
+      i {
+        font-size: $size + 28;
+      }
+
+      h2 {
+        font-size: $size;
+      }
+    }
+  }
+
+  .container-all-outlier {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    .card-outlier {
+      width: 50vw;
+      margin: 0 auto;
+
+      i {
+        color: var(--grey-1);
+        font-family: "openRegular";
+        font-size: $size + 35;
+      }
+
+      h2 {
+        color: var(--grey-1);
+        font-family: "poppins";
+        font-size: $size + 2;
+      }
+    }
+  }
+
+  .text-progress {
+    font-size: $size + 2;
+  }
+
+  .container-title-skills {
+    h1 {
+      font-size: $size + 1;
+    }
+  }
+
+  .title-outlier {
+    h1 {
+      font-size: $size + 1;
+    }
+  }
+}

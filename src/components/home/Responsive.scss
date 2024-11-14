@@ -1,0 +1,1870 @@
+@import "../../../public/assets/scss/function.scss";
+
+@include medium-respond-to(1355px) {
+  .container-introduce {
+    h2 {
+      font-size: $size + 26;
+    }
+    h1 {
+      font-size: $size + 26;
+    }
+  }
+}
+
+@include medium-respond-to(1333px) {
+  .container-introduce {
+    h2 {
+      font-size: $size + 26;
+    }
+    h1 {
+      font-size: $size + 26;
+    }
+  }
+}
+
+@include medium-respond-to(1315px) {
+  .container-introduce {
+    h2 {
+      font-size: $size + 26;
+      line-height: 48px;
+    }
+    h1 {
+      font-size: $size + 26;
+      line-height: 48px;
+    }
+  }
+}
+
+@include medium-respond-to(1240px) {
+  .container-introduce {
+    h2 {
+      font-size: $size + 26;
+    }
+    h1 {
+      font-size: $size + 26;
+    }
+  }
+}
+
+@include medium-respond-to(1214px) {
+  .container-introduce {
+    h2 {
+      font-size: $size + 25;
+    }
+    h1 {
+      font-size: $size + 25;
+    }
+  }
+}
+
+@include medium-respond-to(1186px) {
+  .container-introduce {
+    h2 {
+      font-size: $size + 24;
+    }
+    h1 {
+      font-size: $size + 24;
+    }
+  }
+}
+
+@include medium-respond-to(1172px) {
+  .container-introduce {
+    padding-top: 5vh;
+    h2 {
+      font-size: $size + 24;
+      line-height: 45px;
+    }
+    h1 {
+      font-size: $size + 24;
+      line-height: 45px;
+    }
+  }
+  .container-social-link {
+    margin-top: 3vh;
+  }
+}
+
+@include medium-respond-to(1158px) {
+  .container-introduce {
+    h2 {
+      font-size: $size + 23;
+    }
+    h1 {
+      font-size: $size + 23;
+    }
+  }
+  .container-svg-home {
+    width: 35vw;
+    height: 50vh;
+    position: relative;
+  }
+  .svg-home {
+    width: 40vw;
+    position: absolute;
+    left: -2rem;
+    top: -12vh;
+  }
+}
+
+@include medium-respond-to(1129px) {
+  .container-introduce {
+    h2 {
+      font-size: $size + 22;
+    }
+    h1 {
+      font-size: $size + 22;
+    }
+  }
+  .container-svg-home {
+    width: 35vw;
+    height: 50vh;
+    position: relative;
+  }
+  .svg-home {
+    width: 40vw;
+    position: absolute;
+    left: -2rem;
+    top: -12vh;
+  }
+}
+
+@include medium-respond-to(1101px) {
+  .container-introduce {
+    h2 {
+      font-size: $size + 21;
+    }
+    h1 {
+      font-size: $size + 21;
+    }
+  }
+  .container-svg-home {
+    width: 35vw;
+    height: 50vh;
+    position: relative;
+  }
+  .svg-home {
+    width: 42vw;
+    position: absolute;
+    left: -5rem;
+    top: -12vh;
+  }
+}
+
+@include medium-respond-to(1073px) {
+  .container-introduce {
+    h2 {
+      font-size: $size + 20;
+    }
+    h1 {
+      font-size: $size + 20;
+    }
+  }
+  .container-svg-home {
+    width: 35vw;
+    height: 50vh;
+    position: relative;
+  }
+  .svg-home {
+    width: 42vw;
+    position: absolute;
+    left: -5rem;
+    top: -12vh;
+  }
+}
+
+@include medium-respond-to(1044px) {
+  .container-introduce {
+    h2 {
+      font-size: $size + 19;
+    }
+    h1 {
+      font-size: $size + 19;
+    }
+  }
+  .container-svg-home {
+    width: 35vw;
+    height: 50vh;
+    position: relative;
+  }
+  .svg-home {
+    width: 45vw;
+    position: absolute;
+    left: -5rem;
+    top: -12vh;
+  }
+}
+
+@include medium-respond-to(1026px) {
+  .container-introduce {
+    width: 100%;
+    h2 {
+      font-size: $size + 19;
+    }
+    h1 {
+      font-size: $size + 19;
+    }
+  }
+  .container-svg-home {
+    width: 35vw;
+    height: 50vh;
+    position: relative;
+  }
+  .svg-home {
+    width: 45vw;
+    position: absolute;
+    left: -5rem;
+    top: -12vh;
+  }
+  .home {
+    padding: 12vh 6rem 0 6rem;
+  }
+}
+
+@include medium-respond-to(1016px) {
+  .container-introduce {
+    h2 {
+      font-size: $size + 18;
+    }
+    h1 {
+      font-size: $size + 18;
+    }
+  }
+  .container-svg-home {
+    width: 35vw;
+    height: 50vh;
+    position: relative;
+  }
+  .svg-home {
+    width: 45vw;
+    position: absolute;
+    left: -5rem;
+    top: -12vh;
+  }
+  .home {
+    padding: 12vh 6rem 0 6rem;
+  }
+}
+
+@include medium-respond-to(1000px) {
+  .container-introduce {
+    h2 {
+      font-size: $size + 18;
+    }
+    h1 {
+      font-size: $size + 18;
+    }
+  }
+  .container-svg-home {
+    width: 35vw;
+    height: 50vh;
+    position: relative;
+  }
+  .svg-home {
+    width: 45vw;
+    position: absolute;
+    left: -5rem;
+    top: -12vh;
+  }
+  .home {
+    padding: 12vh 6rem 0 6rem;
+  }
+}
+
+@include medium-respond-to(990px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 18;
+    }
+    h1 {
+      font-size: $size + 18;
+    }
+    h3 {
+      font-size: $size + 14;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 1;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 1;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 40rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+  }
+  .home {
+    height: auto;
+    padding: 12vh 6rem 4vh 6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(767px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 18;
+    }
+    h1 {
+      font-size: $size + 18;
+    }
+    h3 {
+      font-size: $size + 14;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 2;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 2;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 40rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+  }
+  .home {
+    height: auto;
+    padding: 12vh 6rem 4vh 6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(686px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 17;
+    }
+    h1 {
+      font-size: $size + 17;
+    }
+    h3 {
+      font-size: $size + 14;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 2;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 2;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 40rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+  }
+  .home {
+    height: auto;
+    padding: 12vh 6rem 4vh 6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(672px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 16;
+      line-height: 38px;
+    }
+    h1 {
+      font-size: $size + 16;
+      line-height: 38px;
+    }
+    h3 {
+      font-size: $size + 14;
+      line-height: 30px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 2;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 2;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 30rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+  }
+  .home {
+    height: auto;
+    padding: 12vh 6rem 4vh 6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(657px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 15;
+    }
+    h1 {
+      font-size: $size + 15;
+    }
+    h3 {
+      font-size: $size + 10;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 2;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 2;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 30rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+  }
+  .home {
+    height: auto;
+    padding: 12vh 6rem 4vh 6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(642px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 14;
+    }
+    h1 {
+      font-size: $size + 14;
+    }
+    h3 {
+      font-size: $size + 10;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 2;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 2;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 30rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+  }
+  .home {
+    height: auto;
+    padding: 12vh 6rem 4vh 6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(629px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 13;
+    }
+    h1 {
+      font-size: $size + 13;
+    }
+    h3 {
+      font-size: $size + 10;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 2;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 2;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 30rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+  }
+  .home {
+    height: auto;
+    padding: 12vh 6rem 4vh 6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(615px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 12;
+      line-height: 35px;
+    }
+    h1 {
+      font-size: $size + 12;
+      line-height: 35px;
+    }
+    h3 {
+      font-size: $size + 8;
+      line-height: 30px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 2;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 2;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 30rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+  }
+  .home {
+    height: auto;
+    padding: 12vh 6rem 4vh 6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(601px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 11;
+      line-height: 35px;
+    }
+    h1 {
+      font-size: $size + 11;
+      line-height: 35px;
+    }
+    h3 {
+      font-size: $size + 8;
+      line-height: 30px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 2;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 2;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 30rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+  }
+  .home {
+    height: auto;
+    padding: 12vh 6rem 4vh 6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(587px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 10;
+      line-height: 35px;
+    }
+    h1 {
+      font-size: $size + 10;
+      line-height: 35px;
+    }
+    h3 {
+      font-size: $size + 8;
+      line-height: 30px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 2;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 2;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 30rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+  }
+  .home {
+    height: auto;
+    padding: 12vh 6rem 4vh 6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(580px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 10;
+      line-height: 32px;
+    }
+    h1 {
+      font-size: $size + 10;
+      line-height: 32px;
+    }
+    h3 {
+      font-size: $size + 8;
+      line-height: 30px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 2;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 2;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 27rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+  }
+  .home {
+    height: auto;
+    padding: 12vh 4rem 4vh 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(576px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 10;
+      line-height: 32px;
+    }
+    h1 {
+      font-size: $size + 10;
+      line-height: 32px;
+    }
+    h3 {
+      font-size: $size + 8;
+      line-height: 30px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+    }
+  }
+  .btn-home {
+    font-size: $size - 3;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 27rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+  }
+  .home {
+    height: auto;
+    padding: 12vh 4rem 4vh 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(508px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 9;
+      line-height: 30px;
+    }
+    h1 {
+      font-size: $size + 9;
+      line-height: 30px;
+    }
+    h3 {
+      font-size: $size + 6;
+      line-height: 25px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 3;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 25rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+  }
+  .home {
+    height: auto;
+    padding: 12vh 4rem 4vh 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(494px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 8;
+      line-height: 30px;
+    }
+    h1 {
+      font-size: $size + 8;
+      line-height: 30px;
+    }
+    h3 {
+      font-size: $size + 6;
+      line-height: 25px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 3;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 25rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+  }
+  .home {
+    height: auto;
+    padding: 12vh 4rem 4vh 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(480px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 7;
+      line-height: 30px;
+    }
+    h1 {
+      font-size: $size + 7;
+      line-height: 30px;
+    }
+    h3 {
+      font-size: $size + 3;
+      line-height: 25px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 3;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 23rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+  }
+  .home {
+    height: auto;
+    padding: 12vh 4rem 4vh 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(466px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 6;
+      line-height: 26px;
+    }
+    h1 {
+      font-size: $size + 6;
+      line-height: 28px;
+    }
+    h3 {
+      font-size: $size + 3;
+      line-height: 24px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 3;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 23rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+    button {
+      width: 20px;
+      height: 20px;
+      font-size: $size + 3;
+      padding: 10px 20px;
+    }
+  }
+  .home {
+    height: auto;
+    padding: 12vh 4rem 4vh 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(452px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 5;
+      line-height: 28px;
+    }
+    h1 {
+      font-size: $size + 5;
+      line-height: 28px;
+    }
+    h3 {
+      font-size: $size + 3;
+      line-height: 24px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 3;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 23rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+    button {
+      width: 20px;
+      height: 20px;
+      font-size: $size + 3;
+      padding: 10px 20px;
+    }
+  }
+  .home {
+    height: auto;
+    padding: 12vh 4rem 4vh 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(440px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 5;
+      line-height: 26px;
+    }
+    h1 {
+      font-size: $size + 5;
+      line-height: 26px;
+    }
+    h3 {
+      font-size: $size + 3;
+      line-height: 24px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 3;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 22rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+    button {
+      width: 20px;
+      height: 20px;
+      font-size: $size + 3;
+      padding: 10px 20px;
+    }
+  }
+  .home {
+    height: auto;
+    padding: 12vh 2rem 4vh 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(374px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 4;
+      line-height: 25px;
+    }
+    h1 {
+      font-size: $size + 4;
+      line-height: 25px;
+    }
+    h3 {
+      font-size: $size + 1;
+      line-height: 24px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 3;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 22rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+    button {
+      width: 20px;
+      height: 20px;
+      font-size: $size + 3;
+      padding: 10px 20px;
+    }
+  }
+  .home {
+    height: auto;
+    padding: 12vh 2rem 4vh 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+@include medium-respond-to(360px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 3;
+      line-height: 24px;
+    }
+    h1 {
+      font-size: $size + 3;
+      line-height: 24px;
+    }
+    h3 {
+      font-size: $size + 1;
+      line-height: 22px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 3;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 22rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+    button {
+      width: 20px;
+      height: 20px;
+      font-size: $size + 3;
+      padding: 10px 18px;
+    }
+  }
+  .home {
+    height: auto;
+    padding: 12vh 2rem 4vh 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(345px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 2;
+      line-height: 24px;
+    }
+    h1 {
+      font-size: $size + 2;
+      line-height: 24px;
+    }
+    h3 {
+      font-size: $size;
+      line-height: 22px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 3;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 20rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+    display: flex;
+    gap: 5x;
+    button {
+      width: 15px;
+      height: 15px;
+      font-size: $size + 3;
+      padding: 10px 19px;
+    }
+  }
+  .home {
+    height: auto;
+    padding: 12vh 2rem 4vh 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(331px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size + 1;
+      line-height: 24px;
+    }
+    h1 {
+      font-size: $size + 1;
+      line-height: 24px;
+    }
+    h3 {
+      font-size: $size;
+      line-height: 22px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 3;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 20rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+    display: flex;
+    gap: 5x;
+    button {
+      width: 15px;
+      height: 15px;
+      font-size: $size + 3;
+      padding: 10px 19px;
+    }
+  }
+  .home {
+    height: auto;
+    padding: 12vh 2rem 4vh 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include medium-respond-to(317px) {
+  .container-introduce {
+    width: 100%;
+
+    h2 {
+      font-size: $size;
+      line-height: 20px;
+    }
+    h1 {
+      font-size: $size;
+      line-height: 20px;
+    }
+    h3 {
+      font-size: $size;
+      line-height: 19px;
+    }
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+  .btn-home {
+    font-size: $size - 3;
+    div {
+      right: 5px;
+      i {
+        color: var(--white-1);
+        font-size: $size + 2;
+      }
+    }
+  }
+  .wrapper-svg-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container-svg-home {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .svg-home {
+    margin-top: 5vh;
+    width: 20rem;
+    height: 70vh;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-social-link {
+    margin-top: 5vh;
+    button {
+      width: 20px;
+      height: 20px;
+      font-size: $size + 3;
+      padding: 10px 20px;
+    }
+  }
+  .home {
+    height: auto;
+    padding: 12vh 2rem 4vh 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

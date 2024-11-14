@@ -1,0 +1,84 @@
+@import "../../../public/assets/scss/function.scss";
+
+
+.box-for-services {
+  width: 25vw;
+  height: 55vh;
+  background-image: linear-gradient(50deg, #06093c16, #10266d17 100%);
+  @include backdrop(blur(10px));
+  border: 1px solid #06093c83;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.063);
+  transition: 0.3s ease;
+  padding: 30px 15px;
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  cursor: default;
+
+  i {
+    color: var(--grey-1);
+    font-size: $size + 30;
+    position: relative;
+    z-index: 10;
+  }
+
+  h2 {
+    color: var(--purple-1);
+    font-family: "poppins";
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: $size + 5;
+    margin: 2.5vh 0 1vh 0;
+    position: relative;
+    z-index: 10;
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: 4px;
+      width: 20%;
+      background-color: var(--purple-1);
+      border-radius: 4px;
+      bottom: -10px;
+      left: 0;
+    }
+  }
+
+  .container-more-service {
+    width: 100%;
+    margin-top: 3vh;
+    max-height: 20vh;
+    cursor: pointer;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    text-overflow: ellipsis;
+  }
+
+  .min-more {
+    min-height: 29vh;
+    overflow-y: scroll;
+    -webkit-line-clamp: unset;
+  }
+
+  p {
+    color: var(--white-2);
+    font-size: $size - 1;
+    font-family: "poppins";
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+  }
+
+  .container-para-service {
+    width: 100%;
+    height: auto;
+  }
+
+  &:hover {
+    @include transform(translateY(-10px));
+    background-color: #070e418d;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.124);
+  }
+}

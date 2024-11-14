@@ -1,0 +1,703 @@
+@import "../../../public/assets/scss/function.scss";
+
+@include medium-respond-to(1100px) {
+  .project {
+    width: 39.2vw;
+  }
+}
+
+@include medium-respond-to(1060px) {
+  .project {
+    // background-color: red;
+    width: 39vw;
+  }
+}
+
+@include medium-respond-to(1040px) {
+  .project {
+    // background-color: red;
+    width: 38.8vw;
+  }
+}
+
+@include medium-respond-to(1026px) {
+  .project {
+    // background-color: red;
+    width: 40vw;
+  }
+  .projects {
+    padding: 20vh 6rem 10vh 6rem;
+  }
+}
+
+@include medium-respond-to(990px) {
+  .project {
+    // background-color: red;
+    width: 50vw;
+    margin: 0 auto;
+  }
+  .projects {
+    padding: 20vh 6rem 10vh 6rem;
+  }
+  .container-project {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+  .para-project {
+    width: 75vw;
+    padding-left: 1rem;
+  }
+  .container-latest-project {
+    h3 {
+      font-size: $size + 4;
+    }
+  }
+  .content-title-project {
+    h1 {
+      font-size: $size + 2;
+    }
+  }
+}
+
+@include medium-respond-to(776px) {
+  .project {
+    width: 60vw;
+    margin: 0 auto;
+  }
+  .projects {
+    padding: 20vh 6rem 10vh 6rem;
+  }
+  .container-project {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+  .para-project {
+    width: 75vw;
+    padding-left: 1rem;
+    font-size: $size - 2;
+  }
+  .container-latest-project {
+    h3 {
+      font-size: $size + 3;
+    }
+  }
+  .content-title-project {
+    h1 {
+      font-size: $size + 1;
+    }
+  }
+
+  .container-para-project {
+    p {
+      color: var(--white-2);
+      font-size: $size - 2;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+
+  .btn-project-git {
+    font-size: $size - 2;
+  
+    &:hover {
+      background: darken(rgba(255, 255, 255, 0.1), 10%);
+    }
+  
+    i {
+      font-size: $size + 9;
+    }
+  }
+}
+
+@include medium-respond-to(715px) {
+  .project {
+    width: 65vw;
+    margin: 0 auto;
+  }
+  .projects {
+    padding: 20vh 6rem 10vh 6rem;
+  }
+  .container-project {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    // background-color: red;
+  }
+  .para-project {
+    width: 75vw;
+    padding-left: 1rem;
+    font-size: $size - 2;
+  }
+  .container-latest-project {
+    h3 {
+      font-size: $size + 3;
+    }
+  }
+  .content-title-project {
+    h1 {
+      font-size: $size + 1;
+    }
+  }
+
+  .container-para-project {
+    p {
+      color: var(--white-2);
+      font-size: $size - 2;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+
+  .btn-project-git {
+    font-size: $size - 2;
+  
+    &:hover {
+      background: darken(rgba(255, 255, 255, 0.1), 10%);
+    }
+  
+    i {
+      font-size: $size + 9;
+    }
+  }
+}
+
+@include medium-respond-to(660px) {
+  .project {
+    width: 67vw;
+    margin: 0 auto;
+  }
+  .container-dots-circle-project {
+    display: flex;
+    gap: 10px;
+    width: 30rem;
+    height: 4vh;
+    position: absolute;
+    left: 1vw;
+    top: 5vh;
+
+    div {
+      background-color: var(--grey-1);
+      width: 3px;
+      height: 100%;
+      @include transform(skew(40deg));
+    }
+  }
+  .container-dots-circle-project {
+    left: -5vw;
+    top: 5vh;
+  }
+
+  .projects {
+    padding: 20vh 6rem 10vh 6rem;
+  }
+  .container-project {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    // background-color: red;
+  }
+  .para-project {
+    width: 75vw;
+    padding-left: 1rem;
+    font-size: $size - 2;
+  }
+  .container-latest-project {
+    h3 {
+      font-size: $size + 3;
+    }
+  }
+  .content-title-project {
+    h1 {
+      font-size: $size + 1;
+    }
+  }
+
+  .container-para-project {
+    p {
+      color: var(--white-2);
+      font-size: $size - 2;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+
+  .btn-project-git {
+    font-size: $size - 2;
+  
+    &:hover {
+      background: darken(rgba(255, 255, 255, 0.1), 10%);
+    }
+  
+    i {
+      font-size: $size + 9;
+    }
+  }
+}
+
+@include medium-respond-to(630px) {
+  .project {
+    width: 67vw;
+    margin: 0 auto;
+  }
+  .container-dots-circle-project {
+    left: -5vw;
+    top: 5vh;
+  }
+
+  .projects {
+    padding: 20vh 6rem 10vh 6rem;
+  }
+  .container-project {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    // background-color: red;
+  }
+  .para-project {
+    width: 75vw;
+    padding-left: 1rem;
+    font-size: $size - 2;
+  }
+  .container-latest-project {
+    h3 {
+      font-size: $size + 3;
+    }
+  }
+  .content-title-project {
+    h1 {
+      font-size: $size + 1;
+    }
+  }
+
+  .container-para-project {
+    p {
+      color: var(--white-2);
+      font-size: $size - 2;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+
+  .btn-project-git {
+    font-size: $size - 2;
+  
+    &:hover {
+      background: darken(rgba(255, 255, 255, 0.1), 10%);
+    }
+  
+    i {
+      font-size: $size + 9;
+    }
+  }
+}
+
+@include medium-respond-to(580px) {
+  .project {
+    width: 69vw;
+    margin: 0 auto;
+  }
+  .container-dots-circle-project {
+    left: -7vw;
+    top: 5vh;
+  }
+
+  .projects {
+    padding: 20vh 4rem 10vh 4rem;
+  }
+  .container-project {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    // background-color: red;
+  }
+  .para-project {
+    width: 75vw;
+    padding-left: 1rem;
+    font-size: $size - 2;
+  }
+  .container-latest-project {
+    h3 {
+      font-size: $size + 3;
+    }
+  }
+  .content-title-project {
+    h1 {
+      font-size: $size + 1;
+    }
+  }
+
+  .container-para-project {
+    p {
+      color: var(--white-2);
+      font-size: $size - 2;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+
+  .btn-project-git {
+    font-size: $size - 2;
+  
+    &:hover {
+      background: darken(rgba(255, 255, 255, 0.1), 10%);
+    }
+  
+    i {
+      font-size: $size + 9;
+    }
+  }
+}
+
+@include medium-respond-to(576px) {
+  .project {
+    width: 69vw;
+    margin: 0 auto;
+  }
+  .container-dots-circle-project {
+    left: -7vw;
+    top: 5vh;
+  }
+
+  .projects {
+    padding: 20vh 4rem 10vh 4rem;
+  }
+  .container-project {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    // background-color: red;
+  }
+  .para-project {
+    width: 70vw;
+    padding-left: 1rem;
+    font-size: $size - 3;
+  }
+  .container-latest-project {
+    h3 {
+      font-size: $size + 2;
+    }
+  }
+  .content-title-project {
+    h1 {
+      font-size: $size;
+    }
+  }
+
+  .container-para-project {
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+
+  .btn-project-git {
+    font-size: $size - 3;
+  
+    &:hover {
+      background: darken(rgba(255, 255, 255, 0.1), 10%);
+    }
+  
+    i {
+      font-size: $size + 7;
+    }
+  }
+}
+
+@include medium-respond-to(515px) {
+  .project {
+    width: 69vw;
+    margin: 0 auto;
+  }
+  .container-dots-circle-project {
+    left: -20vw;
+    top: 5vh;
+  }
+
+  .projects {
+    padding: 20vh 4rem 10vh 4rem;
+  }
+  .container-project {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    // background-color: red;
+  }
+  .para-project {
+    width: 70vw;
+    padding-left: 1rem;
+    font-size: $size - 3;
+  }
+  .container-latest-project {
+    h3 {
+      font-size: $size + 2;
+    }
+  }
+  .content-title-project {
+    h1 {
+      font-size: $size;
+    }
+  }
+
+  .container-para-project {
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+
+  .btn-project-git {
+    font-size: $size - 3;
+  
+    &:hover {
+      background: darken(rgba(255, 255, 255, 0.1), 10%);
+    }
+  
+    i {
+      font-size: $size + 7;
+    }
+  }
+}
+
+@include medium-respond-to(440px) {
+  .project {
+    width: 75vw;
+    margin: 0 auto;
+  }
+  .container-dots-circle-project {
+    left: -20vw;
+    top: 5vh;
+  }
+
+  .projects {
+    padding: 20vh 2rem 10vh 2rem;
+  }
+  .container-project {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    // background-color: red;
+  }
+  .para-project {
+    width: 70vw;
+    padding-left: 1rem;
+    font-size: $size - 3;
+  }
+  .container-latest-project {
+    h3 {
+      font-size: $size + 2;
+    }
+  }
+  .content-title-project {
+    h1 {
+      font-size: $size;
+    }
+  }
+
+  .container-para-project {
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+
+  .btn-project-git {
+    font-size: $size - 3;
+  
+    &:hover {
+      background: darken(rgba(255, 255, 255, 0.1), 10%);
+    }
+  
+    i {
+      font-size: $size + 7;
+    }
+  }
+}
+
+@include medium-respond-to(400px) {
+  .project {
+    width: 75vw;
+    margin: 0 auto;
+  }
+  .container-dots-circle-project {
+    left: -27vw;
+    top: 5vh;
+  }
+
+  .projects {
+    padding: 20vh 2rem 10vh 2rem;
+  }
+  .container-project {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    // background-color: red;
+  }
+  .para-project {
+    width: 70vw;
+    padding-left: 1rem;
+    font-size: $size - 3;
+  }
+  .container-latest-project {
+    h3 {
+      font-size: $size + 2;
+    }
+  }
+  .content-title-project {
+    h1 {
+      font-size: $size;
+    }
+  }
+
+  .container-para-project {
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+
+  .btn-project-git {
+    font-size: $size - 3;
+  
+    &:hover {
+      background: darken(rgba(255, 255, 255, 0.1), 10%);
+    }
+  
+    i {
+      font-size: $size + 7;
+    }
+  }
+}
+
+@include medium-respond-to(330px) {
+  .project {
+    width: 75vw;
+    margin: 0 auto;
+  }
+  .container-dots-circle-project {
+    left: -40vw;
+    top: 5vh;
+  }
+
+  .projects {
+    padding: 20vh 2rem 10vh 2rem;
+  }
+  .container-project {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    // background-color: red;
+  }
+  .para-project {
+    width: 70vw;
+    padding-left: 1rem;
+    font-size: $size - 3;
+  }
+  .container-latest-project {
+    h3 {
+      font-size: $size + 2;
+    }
+  }
+  .content-title-project {
+    h1 {
+      font-size: $size;
+    }
+  }
+
+  .container-para-project {
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+
+  .btn-project-git {
+    font-size: $size - 3;
+  
+    &:hover {
+      background: darken(rgba(255, 255, 255, 0.1), 10%);
+    }
+  
+    i {
+      font-size: $size + 7;
+    }
+  }
+}
+
+@include medium-respond-to(325px) {
+  .project {
+    width: 78vw;
+    margin: 0 auto;
+  }
+  .container-dots-circle-project {
+    left: -40vw;
+    top: 5vh;
+  }
+
+  .projects {
+    padding: 20vh 2rem 10vh 2rem;
+  }
+  .container-project {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    // background-color: red;
+  }
+  .para-project {
+    width: 70vw;
+    padding-left: 1rem;
+    font-size: $size - 3;
+  }
+  .container-latest-project {
+    h3 {
+      font-size: $size + 2;
+    }
+  }
+  .content-title-project {
+    h1 {
+      font-size: $size;
+    }
+  }
+
+  .container-para-project {
+    p {
+      color: var(--white-2);
+      font-size: $size - 3;
+      font-family: "poppins";
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      line-height: 1.6;
+    }
+  }
+
+  .btn-project-git {
+    font-size: $size - 3;
+  
+    &:hover {
+      background: darken(rgba(255, 255, 255, 0.1), 10%);
+    }
+  
+    i {
+      font-size: $size + 7;
+    }
+  }
+}
